@@ -1,0 +1,8 @@
+*.pyc
+*.swp
+*.DS_Store
+database.db
+test.py
+*logs.txt
+static/logs.txt
+env
