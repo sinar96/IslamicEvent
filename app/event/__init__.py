@@ -10,9 +10,9 @@ class Event(database.Model):
 	area = database.Column(database.String())
 	location = database.Column(database.String())
 	facility = database.Column(database.String())
-	htm = database.Column(database.String())
+	htm = database.Column(database.Double())
 	how_to_join = database.Column(database.String())
-	contact_person = database.Column(database.Double())
+	contact_person = database.Column(database.Integer())
 	speaker = database.Column(database.String())
 
 	def __repr__(self):
